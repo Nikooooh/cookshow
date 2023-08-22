@@ -9,16 +9,16 @@ function Header() {
         <div className="bg-white text-black p-5">
             <div className="container mx-auto">
                 <div className="flex justify-between items-center">
-                    <h1 className="text-2xl md:text-4xl font-bold font-orelega">
+                    <h1 className="text-3xl md:text-4xl font-bold font-orelega">
                         <span className="text-orange-500">Cook</span>
                         <span className="text-black">Show</span>
                     </h1>
                     {/* Menu mobile (visível apenas em telas pequenas) */}
                     <div className="relative md:hidden">
-                        <button onClick={() => setIsOpen(!isOpen)} className="z-20">
+                        <button onClick={() => setIsOpen(!isOpen)} className="z-20 flex items-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6 md:h-8 md:w-8 text-orange-500"
+                                className="h-8 w-8 md:h-8 md:w-8 text-orange-500"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
