@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 function Footer() {
     return (
         <footer className="bg-white text-black p-5 fixed bottom-0 w-full">
